@@ -14,6 +14,11 @@ git clone https://github.com/ismayilkarimli/1oT-task.git
 
 Start Spring Boot application:
 
+1. Change directory to `api/` (assuming you're in project's base directory):
+```bash
+cd ./api/
+```
+2. Then run the application using gradle:
 ```bash
 ./gradlew bootRun
 ```
@@ -21,7 +26,11 @@ or
 ```bash
 gradle bootRun
 ```
-Start Vue application:
+3. Change directory to `./front-end/1oT-weather/` (assuming you're in project's base directory):
+```bash
+cd ./front-end/1oT-weather/
+```
+4. Start Vue application:
 ```bash
 npm run dev
 ```
